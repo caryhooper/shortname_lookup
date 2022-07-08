@@ -1,7 +1,7 @@
 # shortname_lookup
 This is a helper program to create wordlist of possible English words corresponding to the filename of a shortlink.
 
-Given a 'shortlink' such as 'ADMIN~
+Given a 'shortlink' such as 'ADMINI~1.ASP', find dictionary words that could correlate (for bruting).
 ```bash
 user@machine:/$ python3 shortname_lookup.py admini | tee wordlist.txt
 Making web request to thefreedictionary.com...
