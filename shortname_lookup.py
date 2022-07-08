@@ -4,7 +4,7 @@ import requests, bs4, sys, re
 #https://blog.liquidsec.net/2021/03/02/iis-shortnames-the-bug-that-became-a-feature/
 
 if len(sys.argv) != 2:
-    print("[!] Invalid arguments.  Usage: ./shortname_lookup.py admin | tee wordlist.txt",file=sys.stderr)
+    print("[!] Invalid arguments.  Usage: ./shortname_lookup.py admini | tee wordlist.txt",file=sys.stderr)
     sys.exit(1)
 
 print("Making web request to thefreedictionary.com...",file=sys.stderr)
